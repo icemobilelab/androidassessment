@@ -54,4 +54,7 @@ dependencies {
     implementation 'com.google.dagger:dagger-android:2.21'
     implementation 'com.google.dagger:dagger-android-support:2.21' // if you use the support libraries
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.15'
+
+    //arch component
+    implementation "androidx.lifecycle:lifecycle-viewmodel:+"
 }

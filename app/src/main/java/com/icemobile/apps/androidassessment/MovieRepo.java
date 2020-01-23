@@ -23,7 +23,7 @@ public class MovieRepo {
 
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.omdbapi.com")
+                .baseUrl("https://www.omdbapi.com")
                 .addConverterFactory(MoshiConverterFactory.create())
                 .client(client)
                 .build();
